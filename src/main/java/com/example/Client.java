@@ -6,7 +6,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 import java.util.Scanner;
 
-public class Main {
+public class Client {
     public static void main(String[] args) throws Exception {
         
         Socket s = new Socket("172.16.125.9",3000);
